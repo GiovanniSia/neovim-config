@@ -66,6 +66,7 @@ En modo NORMAL
 
 ## Buffer, el historial de navegacion
 `ctrl + o` = voy para ATRAS en el historial 
+
 `ctrl + i` = voy para ADELANTE en el historial
 
 ## Acumular operadores
