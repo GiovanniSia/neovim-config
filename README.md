@@ -72,6 +72,99 @@ En modo NORMAL
 ## Acumular operadores
 `number + operador`
 
-## Pegar y recortar listas
+## Copiar, Pegar y recortar listas
+Todo lo que se borra se guarda en el clipboard (contenido que se puede pegar)
+Nada se elimina, lo eliminado sobreescribe lo ya guardado en el clipboard
+En vez de eliminarse se recorta
+EN MODO VISUAL (`v`)
+### Pegar
+`p` = abajo del cursor
 
+`P` = arriba del cursor
 
+### Copiar
+`y` = copiar
+
+### Reemplazar sin editar
+`R`
+
+### Se puede encadenar
+`2dd`...`8dd`
+
+## Operador de cambio
+`r` = solo un caracter
+
+`c + w` = una palabra desde la DER del cursor en ella
+
+`c + i + w` = la palabra entera sin improtar la posicion de cursor en ella
+
+## Salto de linea, comienzo, final, buscar
+`ctrl + g` = para saber en que linea estamos
+
+### Salto de linea
+`g + g` = COMIENZO del archivo
+
+`G` = FINAL del archivo
+
+`number + G` = salto de linea especifica
+
+### Buscar
+`/ + ...` o `? + ...`= lo que quiero buscar en especifico
+### Luego de buscar
+`n` = moverse hacia ARRIBA despues de buscar
+
+`N` = moverse hacia ABAJO despues de buscar
+
+## Comienzo y final de linea
+### En modo VISUAL (`v`)
+`0` = COMIENZO
+
+`$` = FINAL
+
+## Saltamos entre llaves ({}[]()) 
+### El cursor sobre una llave
+`%` = nos movemes entre la llame COMIENZO y FINAL
+
+## Reemplazar cadenas
+### Sobre la linea donde esta el cursor
+Con ENTER reemplaza la primer palabra encontrada
+`:s/lo que quiero buscar / lo nuevo`
+
+`:s/lo que quiero buscar / lo nuevo / g` = todas las palabras sin preguntar
+
+### Reemplazar varias palabras sin importar donde este el cursor
+`:%s/lo que quiero buscar / lo nuevo / g` = reemplaza todo sin preguntar
+
+`:%s/lo que quiero buscar / lo nuevo / gc` = reemplaza preguntando una por una
+
+## Abrir neva linea
+`O` = ARRIBA del cursor
+`o` = ABAJO del cursor
+
+# PLUGGINS
+
+## EasyMotion
+### Buscar de a dos palabras
+`espacio + s`
+
+## NERDTREE
+### Navegar entre archivos
+Nos movemos entre archivos con `h, j, k, l`
+`espacio + nt` = abrir navegador
+
+`ctrl + h` = IZQ salto archivo abierto
+
+`ctrl + l` = DER salto archivo abierto
+
+`s` = seleccionamos archivo sobre cursor para abrir
+
+## Atajos creador
+`espacio + w` = Guardar
+
+`espacio + q` = Salir sin guardar
+
+# Copiar de nvim a cualquier lado
+1. MODO VISUAL
+2. Seleccionamos lo que queremos
+3. Precionamos: ` " , + , y `
+4. Listo, guardado en el clipboar general
