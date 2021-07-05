@@ -121,7 +121,7 @@ EN MODO VISUAL (`v`)
 
 `$` = FINAL
 
-## Saltamos entre llaves ({}[]()) 
+## Saltamos entre llaves `{}[]()` 
 ### El cursor sobre una llave
 `%` = nos movemes entre la llame COMIENZO y FINAL
 
