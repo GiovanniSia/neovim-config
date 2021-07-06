@@ -141,6 +141,15 @@ Con ENTER reemplaza la primer palabra encontrada
 `O` = ARRIBA del cursor
 `o` = ABAJO del cursor
 
+## Comentar varias lineas
+1. Posicionar el cursor en donde queremos comentar
+2. Usar `ctrl + v` para activar el modo VISUAL BLOCK
+3. Seleccionar todo lo que queremos comentar
+4. Precionar `shift + i` para comentar la primer linea
+5. Elegimos que poner
+6. Precionamos `esc`
+7. Listo, todo comentado
+
 # PLUGGINS
 
 ## EasyMotion
