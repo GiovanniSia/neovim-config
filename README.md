@@ -3,6 +3,7 @@
 A continuacion se describiran los comandos aprendidos sobre vim y los de plug
 las ` `` ` se hacen con `ctrl + e` las `^` con `AltGr + { 2 (veces)`
 
+Los plugins se instalaron del repo: https://github.com/junegunn/vim-plug
 ## Modo NORMAL
 `esc` = vamos al modo normal
 
